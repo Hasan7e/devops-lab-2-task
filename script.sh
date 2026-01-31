@@ -1,5 +1,9 @@
 #!/bin/bash 
 
+# delete folders at start
+
+rm -rf fol_1 fol_2
+
 mkdir fol_1 fol_2
 
 touch fol_1/1_1.txt
